@@ -69,8 +69,14 @@ python3 main.py  --executor "speflw"  \
 
 If you use this code in your work, please cite:
 ```
-@article{,
-    author = {}
+@misc{zhang2024neuralcanonicaltransformationsquantum,
+      title={Neural Canonical Transformations for Quantum Anharmonic Solids of Lithium}, 
+      author={Qi Zhang and Xiaoyang Wang and Rong Shi and Xinguo Ren and Han Wang and Lei Wang},
+      year={2024},
+      eprint={2412.12451},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.mtrl-sci},
+      url={https://arxiv.org/abs/2412.12451}, 
 }
 ```
 
