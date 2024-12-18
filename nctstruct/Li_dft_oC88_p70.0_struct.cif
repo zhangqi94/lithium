@@ -1,0 +1,63 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    1.0.4)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Aem2'
+_symmetry_Int_Tables_number                   39
+_symmetry_cell_setting              orthorhombic
+_cell_length_a            8.221906
+_cell_length_b            9.145540
+_cell_length_c            8.495605
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume            638.816595
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 'x, -y+1/2, z'
+4 '-x, y+1/2, z'
+5 'x, y+1/2, z+1/2'
+6 '-x, -y+1/2, z+1/2'
+7 'x, -y+1, z+1/2'
+8 '-x, y+1, z+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Li     Li       8     0.734793    0.384631    0.380359 1
+Li     Li       8     0.678757    0.631750    0.636012 1
+Li     Li       8     0.861305    0.393040    0.878888 1
+Li     Li       8     0.633541    0.101085    0.901304 1
+Li     Li       8     0.614958    0.567613    0.079714 1
+Li     Li       8     0.162387    0.378337    0.115211 1
+Li     Li       8     0.882302    0.440271    0.211243 1
+Li     Li       4     0.433184    0.250000    0.816641 1
+Li     Li       4     0.481194    0.250000    0.044942 1
+Li     Li       4     0.097871    0.250000    0.933730 1
+Li     Li       4     0.320597    0.250000    0.240929 1
+Li     Li       4     0.991267    0.250000    0.228722 1
+Li     Li       4     0.857363    0.250000    0.039296 1
+Li     Li       4     0.000000    0.000000    0.486603 1
+Li     Li       4     0.500000    0.000000    0.776189 1
+#END
+

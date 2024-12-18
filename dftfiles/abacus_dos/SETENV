@@ -1,0 +1,3 @@
+ABACUS_PATH=/home/zq/anaconda3/envs/abacus_env/bin/abacus
+ABACUS_NPROCS=30
+ABACUS_THREADS=1
