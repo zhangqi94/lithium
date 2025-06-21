@@ -69,20 +69,25 @@ python3 main.py  --executor "speflw"  \
 
 If you use this code in your work, please cite:
 ```
-@misc{zhang2024neuralcanonicaltransformationsquantum,
-      title={Neural Canonical Transformations for Quantum Anharmonic Solids of Lithium}, 
-      author={Qi Zhang and Xiaoyang Wang and Rong Shi and Xinguo Ren and Han Wang and Lei Wang},
-      year={2024},
-      eprint={2412.12451},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2412.12451}, 
+@article{zhang2025neural,
+  title = {Neural Canonical Transformations for Quantum Anharmonic Solids of Lithium},
+  author = {Zhang, Qi and Wang, Xiaoyang and Shi, Rong and Ren, Xinguo and Wang, Han and Wang, Lei},
+  journal = {Phys. Rev. Lett.},
+  volume = {134},
+  issue = {24},
+  pages = {246101},
+  numpages = {7},
+  year = {2025},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/p3th-25bc},
+  url = {https://link.aps.org/doi/10.1103/p3th-25bc}
 }
 ```
 
-For NCT applied to molecular vibrations, please refer to the following paper:
+For NCT applied to molecular vibrations, please cite:
 ```
-@article{10.1063/5.0209255,
+@article{zhang2024neural,
     author = {Zhang, Qi and Wang, Rui-Si and Wang, Lei},
     title = "{Neural canonical transformations for vibrational spectra of molecules}",
     journal = {The Journal of Chemical Physics},
