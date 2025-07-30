@@ -57,9 +57,9 @@ python3 main.py  --executor "speflw"  \
     - `main_train.py`: Used for training the NCT model.
     - `main_speflw.py`: Used for calculating single-phonon excitations.
 - `src/structures/`: Contains initial lithium crystal structures in VASP format.
-    -  including *bcc*, *fcc*, *cI16*, and *oC88*.
+    -  including *bcc*, *fcc*, *cI16*, *oC88* and *oC40* structures.
 - `src/dpmodel/`: Contains [Deep Potential](https://github.com/deepmodeling/deepmd-kit) models for the Born-Oppenheimer energy surface.
-    - `fznp_dp0.pkl`: Li-DP-Hyb2 model is available for high-pressure structures.
+    - `fznp_dp0.pkl`: Li-DP-Hyb2 model is available for high-pressure structures: *cI16* *oC88* *oC40*.
     - `fznp_dp4.pkl`: Li-DP-Hyb3 model is trained with additional *bcc* and *fcc* structures.
 - `run/`: Contains scripts for job submission and hyperparameter configuration for neural canonical transformations.
 - `nctstruct/`: Output strucutres (*cI16* and *oC88*) of NCT calculations at 70 GPa and 100 K.
@@ -67,7 +67,7 @@ python3 main.py  --executor "speflw"  \
 
 ## Citation
 
-If you use this code in your work, please cite:
+If you use this code in your research, please cite:
 ```
 @article{zhang2025neural,
   title = {Neural Canonical Transformations for Quantum Anharmonic Solids of Lithium},
@@ -85,7 +85,8 @@ If you use this code in your work, please cite:
 }
 ```
 
-For NCT applied to molecular vibrations, please cite:
+For NCT applied to molecular vibrations, please refer to the GitHub repository: [https://github.com/zhangqi94/VibrationalSystem](https://github.com/zhangqi94/VibrationalSystem)
+The associated paper is:
 ```
 @article{zhang2024neural,
     author = {Zhang, Qi and Wang, Rui-Si and Wang, Lei},
@@ -102,4 +103,4 @@ For NCT applied to molecular vibrations, please cite:
     eprint = {https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0209255/20033705/024103\_1\_5.0209255.pdf},
 }
 ```
-GitHub repository: [https://github.com/zhangqi94/VibrationalSystem](https://github.com/zhangqi94/VibrationalSystem)
+
